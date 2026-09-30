@@ -322,7 +322,7 @@ function checkEligibility() {
                                 </p>
 
                                <p class="monthly">
-                                   💰 ${monthly.toFixed(0)} / bulan
+                                   <span style="display:none;">💰 ${monthly.toFixed(0)} / bulan</span>
                                </p>
 
                                <p>
