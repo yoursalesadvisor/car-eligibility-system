@@ -6,7 +6,7 @@
       {
         "name": "Standard",
         "price": 40581.6,
-        "interest": 3.0,
+        "interest": 3.3,
         "loanYear": 9,
         "minSalary": 1700,
         "status": "Active"
@@ -14,7 +14,7 @@
       {
         "name": "Executive",
         "price": 46760.19,
-        "interest": 3.0,
+        "interest": 3.3,
         "loanYear": 9,
         "minSalary": 1800,
         "status": "Active"
@@ -22,7 +22,7 @@
       {
         "name": "Premium",
         "price": 51909.01,
-        "interest": 3.0,
+        "interest": 3.3,
         "loanYear": 9,
         "minSalary": 1900,
         "status": "Active"
@@ -40,7 +40,7 @@
         "interest": 3.0,
         "loanYear": 9,
         "minSalary": 2000,
-        "status": "Active"
+        "status": "Inactive"
       },
       {
         "name": "Executive",
@@ -48,7 +48,7 @@
         "interest": 3.0,
         "loanYear": 9,
         "minSalary": 2300,
-        "status": "Active"
+        "status": "Inactive"
       },
       {
         "name": "Premium",
@@ -56,7 +56,7 @@
         "interest": 3.0,
         "loanYear": 9,
         "minSalary": 2300,
-        "status": "Active"
+        "status": "Inactive"
       }
     ]
   },
@@ -68,6 +68,22 @@
       {
         "name": "Executive",
         "price": 76422.37,
+        "interest": 2.5,
+        "loanYear": 9,
+        "minSalary": 2300,
+        "status": "Inactive"
+      },
+      {
+        "name": "Lite",
+        "price": 61564.88,
+        "interest": 2.5,
+        "loanYear": 9,
+        "minSalary": 2200,
+        "status": "Active"
+      },
+      {
+        "name": "Prime",
+        "price": 64639.30,
         "interest": 2.5,
         "loanYear": 9,
         "minSalary": 2300,
@@ -258,16 +274,16 @@
   "variants": [
     {
       "name": "G",
-      "price": 35000,
-      "interest": 2.8,
+      "price": 35219.95,
+      "interest": 2.7,
       "loanYear": 9,
       "minSalary": 1700,
       "status": "Active"
     },
     {
       "name": "X",
-      "price": 39875.07,
-      "interest": 2.8,
+      "price": 39375.07,
+      "interest": 2.7,
       "loanYear": 9,
       "minSalary": 1700,
       "status": "Active"
@@ -275,7 +291,7 @@
     {
       "name": "SE",
       "price": 44485.31,
-      "interest": 2.8,
+      "interest": 2.7,
       "loanYear": 9,
       "minSalary": 1700,
       "status": "Active"
@@ -283,7 +299,7 @@
     {
       "name": "AV",
       "price": 50632.11,
-      "interest": 2.8,
+      "interest": 2.7,
       "loanYear": 9,
       "minSalary": 1700,
       "status": "Active"
@@ -297,7 +313,7 @@
     {
       "name": "G",
       "price": 37924.83,
-      "interest": 2.8,
+      "interest": 2.7,
       "loanYear": 9,
       "minSalary": 1700,
       "status": "Active"
@@ -305,7 +321,7 @@
     {
       "name": "X",
       "price": 45454.31,
-      "interest": 2.8,
+      "interest": 2.7,
       "loanYear": 9,
       "minSalary": 1800,
       "status": "Active"
@@ -313,7 +329,7 @@
     {
       "name": "AV",
       "price": 51710.61,
-      "interest": 2.8,
+      "interest": 2.7,
       "loanYear": 9,
       "minSalary": 1800,
       "status": "Active"
@@ -327,7 +343,7 @@
     {
       "name": "G (Tanpa ASA)",
       "price": 48074.03,
-      "interest": 2.8,
+      "interest": 2.7,
       "loanYear": 9,
       "minSalary": 1900,
       "status": "Active"
@@ -335,7 +351,7 @@
     {
       "name": "G (Dengan ASA)",
       "price": 50129.15,
-      "interest": 2.8,
+      "interest": 2.7,
       "loanYear": 9,
       "minSalary": 2000,
       "status": "Active"
@@ -343,7 +359,7 @@
     {
       "name": "X",
       "price": 52611.83,
-      "interest": 2.8,
+      "interest": 2.7,
       "loanYear": 9,
       "minSalary": 2000,
       "status": "Active"
@@ -351,7 +367,7 @@
     {
       "name": "H",
       "price": 56722.07,
-      "interest": 2.8,
+      "interest": 2.7,
       "loanYear": 9,
       "minSalary": 2000,
       "status": "Active"
@@ -359,7 +375,7 @@
     {
       "name": "AV",
       "price": 61859.87,
-      "interest": 2.8,
+      "interest": 2.7,
       "loanYear": 9,
       "minSalary": 2100,
       "status": "Active"
@@ -426,7 +442,7 @@
   "variants": [
     {
       "name": "X",
-      "price": 75218.15,
+      "price": 71378.15,
       "interest": 2.3,
       "loanYear": 9,
       "minSalary": 2100,
@@ -434,7 +450,7 @@
     },
     {
       "name": "AV",
-      "price": 80355.95,
+      "price": 76515.95,
       "interest": 2.3,
       "loanYear": 9,
       "minSalary": 2100,

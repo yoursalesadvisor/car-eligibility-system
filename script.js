@@ -104,9 +104,10 @@ variantSelect.addEventListener("change", function() {
 
 
 // FORMAT RM
+// FORMAT RM
+// FORMAT RM
 function formatRM(value) {
-
-    return "RM " + Number(value).toLocaleString("en-MY", {
+    return Number(value).toLocaleString("en-MY", {
         minimumFractionDigits: 2,
         maximumFractionDigits: 2
     });
@@ -294,7 +295,10 @@ function checkEligibility() {
 
                     let salaryOK =
                         salary === 0 ||
-                        balance >= minimumBalance;
+                        (
+                        salary >= (Number(variant.minSalary) || 0) &&
+                        balance >= minimumBalance
+                        );
 
                     let searchOK = true;
 
@@ -318,7 +322,7 @@ function checkEligibility() {
                                 </p>
 
                                <p class="monthly">
-                                   💰 RM${monthly.toFixed(0)} / bulan
+                                   💰 ${monthly.toFixed(0)} / bulan
                                </p>
 
                                <p>
@@ -571,10 +575,10 @@ function resetCustomer() {
     document.getElementById("interest").textContent = "-";
 
     document.getElementById("loanAmount").textContent =
-        "RM0.00";
+        "0.00";
 
     document.getElementById("monthly").textContent =
-        "RM0.00";
+        "0.00";
 
 
     document.getElementById("downpayment").value = "";
